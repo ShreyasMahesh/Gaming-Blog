@@ -1,0 +1,176 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: "consolas";
+}
+
+header {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL4xaGnOS2rROFx_JtrYBuHMTc8DVlSK1dtFSfVrNlGUVdciA9yqUnLd3xZJseZK1TygQ&usqp=CAU");
+	height: 40%;
+	width: 80%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-left: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+header h1 {
+	color: black;
+	background-color: #ffffff;
+	font-size: 50px;
+	padding: 10px 15px;
+	border-radius: 20px;
+	animation: rainbow 5s ease-in-out infinite;
+}
+
+@keyframes rainbow {
+	0% {
+		color: silver;
+	}
+
+	10% {
+		color: red;
+	}
+
+	20% {
+		color: orangered;
+	}
+
+	30% {
+		color: yellow;
+	}
+
+	35% {
+		color: yellowgreen;
+	}
+
+	40% {
+		color: #02d402;
+	}
+
+	50% {
+		color: #00b8b8;
+	}
+
+	60% {
+		color: blue;
+	}
+
+	70% {
+		color: violet;
+	}
+
+	80% {
+		color: #ff00a2;
+	}
+
+	90% {
+		color: #9500ff;
+	}
+
+	100% {
+		color: purple;
+	}
+}
+
+.nav {
+	text-align: center;
+	font-size: 40px;
+	padding: 20px 15px;
+	background-color: #16213e;
+	width: 78.4%;
+	margin-left: 10%;
+}
+
+.nav a{
+	margin: 15px;
+	padding: 10px 15px;
+	color: rgb(233, 69, 96);
+	border: 3px solid rgb(83, 52, 131);
+	border-radius: 20px;
+}
+
+.nav a:hover {
+	border-top-color: rgb(232, 15, 136);
+	border-bottom-color: rgb(232, 15, 136);
+}
+
+/* .video {
+	margin-top: 20px;
+} */
+
+.text {
+	text-align: center;
+}
+
+.mar_wid {
+	width: 80%;
+	margin-left: 10%;
+}
+
+.news div {
+	display: inline-block;
+/* 	border: 2px solid black; */
+	margin-right: 30px;
+}
+
+.AD {
+	width: 30%;
+}
+
+.NAG {
+	width: 30%;
+	text-align: center;
+}
+
+.PC {
+	width: 30%;
+}
+
+.att div {
+/* 	border: 2px solid black; */
+	width: 18%;
+	display: inline-block;
+	margin-left: 3%;
+	padding: 5px;
+	background-color: #eeeeee;
+	text-align: center;
+}
+
+.fg div{
+	border: 2px solid black;
+	width: 20%;
+	text-align: center;
+	display: inline-block;
+	margin-left: 2%;
+}
+
+.subscribe {
+	background-color: #16213e;
+	width: 80%;
+	height: 200px;
+	margin-left: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.subscribe h2 {
+	background-color: red;
+	color: white;
+/* 	width: 10%; */
+	padding: 25px 30px;
+	text-align: center;
+}
+
+footer {
+	width: 77%;
+	margin-left: 10%;
+	background-color: #16213e;
+	color: rgb(233, 69, 96);
+	margin-top: 40px;
+	padding: 25px 30px;
+}
